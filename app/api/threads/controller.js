@@ -4,7 +4,7 @@ const {
   getOneThreads,
   updateThreads,
   deleteThreads,
-} = require('../../../services/mongoose/threads');
+} = require('../../services/mongoose/threads');
 const { StatusCodes } = require('http-status-codes');
 
 const create = async (req, res, next) => {

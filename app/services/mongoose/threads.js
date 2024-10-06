@@ -1,4 +1,4 @@
-const Threads = require('../../api/v1/threads/model');
+const Threads = require('../../api/threads/model');
 const { BadRequestError, NotFoundError } = require('../../errors');
 
 const createThreads = async (req) => {

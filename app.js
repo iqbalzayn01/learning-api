@@ -5,10 +5,10 @@ const logger = require('morgan');
 
 const app = express();
 
-const v1 = '/api/v1';
+const v1 = '/api';
 
 // Router
-const threadsRouter = require('./app/api/v1/threads/router');
+const threadsRouter = require('./app/api/threads/router');
 
 // Middlewares
 const notFoundMiddleware = require('./app/middlewares/not-found');
